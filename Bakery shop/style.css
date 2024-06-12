@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+/* LOCAL FONTS */
+@font-face {
+    font-family:'NotoSerif-Medium';
+    src: url('Fonts/NotoSerif-Medium.ttf');
+}
+@font-face {
+    font-family:'NotoSerif-Regular';
+    src: url('Fonts/NotoSerif-Regular.ttf');
+}
+@font-face {
+    font-family:'RobotoCondensed-Bold';
+    src: url('Fonts/RobotoCondensed-Bold.ttf');
+}
+.bakery_shop{
+    width: 100%;
+    height: 100vh;
+    background-color: #fffcf6;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 30px;
+    padding: 0px 100px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.menu ul li{
+    font-family:'NotoSerif-Medium';
+    font-size: 20px;
+    color: #373737;
+    cursor: pointer;
+}
+.herosection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-section{
+    width: 50%;
+}
+.right-section{
+    width: 50%;
+}
+.basket{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.box-div{
+    width: 582px;
+    height: 100vh;
+    background-color: #b79d7b78;
+    position: relative;
+    left: 270px;
+}
+.box-div h5{
+    font-family:'RobotoCondensed-Bold';
+    font-size: 170px;
+    color: #fffcf6;
+    transform: rotate(90deg);
+    width: 100%;
+    position: absolute;
+    right: -215px;
+    top: 218px;
+}
+h1{
+    font-family:'NotoSerif-Medium';
+    font-size: 60px;
+    line-height: normal;
+    width: 650px;
+    padding-bottom: 25px;
+}
+h1 span{
+    color: #d17537;
+}
+p{
+    font-family:'NotoSerif-Regular';
+    font-size: 16px;
+    line-height: 30px;
+    color: #919191;
+    width: 650px;
+}
+.explore_btn{
+    width: 250px;
+    height: 55px;
+    border-radius: 20px;
+    background-color: #d17537;
+    color: #fffcf6;
+    font-family:'RobotoCondensed-Bold';
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
